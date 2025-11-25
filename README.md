@@ -75,6 +75,23 @@ GitHub folder: `day5/`
 
 ---
 
+### **Day 6 — Window Functions (MySQL 8)**
+Learned advanced analytical SQL:
+- `OVER()`  
+- `PARTITION BY`  
+- `ORDER BY` inside window functions  
+- `ROW_NUMBER()`, `RANK()`, `DENSE_RANK()`  
+- Running totals  
+- Highest revenue order per customer  
+- Top-selling products per category  
+- Total quantity sold per product  
+- Customer spend segmentation using window totals
+
+YouTube video that helped:  
+https://www.youtube.com/watch?v=rIcB4zMYMas
+
+---
+
 ## 🔧 Tools Used
 - Python  
 - Pandas  
