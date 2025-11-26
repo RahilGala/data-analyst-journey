@@ -1,119 +1,53 @@
-# Data Analyst Journey — 60 Days  
-A complete learning journey from beginner to job-ready Data Analyst.  
-This repository documents my daily progress with code, SQL queries, datasets, and projects.
+
+# **Data Analyst Journey — 60 Days**
+
+A complete learning journey from beginner to job-ready Data Analyst.
+This repository documents my day-by-day progress with code, SQL queries, datasets and projects.
 
 ---
 
-## 📅 Day-by-Day Progress
+## **📅 Day-by-Day Progress (Table Format)**
 
-### **Day 1 — Python & Pandas Basics**
-Learned the fundamentals:
-- What data analysts do  
-- How Python handles data  
-- Pandas Series & DataFrame  
-- Loading CSVs, exploring data, filtering  
-- Basic operations & notebook structure  
-
-GitHub folder: `day1/`
-
----
-
-### **Day 2 — SQL Basics (MySQL)**
-Covered database fundamentals:
-- What a database is  
-- Tables, rows, keys  
-- SELECT, FROM, WHERE  
-- ORDER BY, LIMIT  
-- Creating first tables and writing first queries  
-
-GitHub folder: `day2/`
+| **Day**   | **Topic**                   | **What I Learned**                                                                                                                                                                                                   | **Folder** |
+| --------- | --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| **Day 1** | Python & Pandas Basics      | - What data analysts do<br>- How Python handles data<br>- Pandas Series & DataFrame<br>- Loading CSVs, filtering, exploring data<br>- Basic operations & notebook flow                                               | `day1/`    |
+| **Day 2** | SQL Basics (MySQL)          | - What a database is<br>- Tables, rows, keys<br>- SELECT, FROM, WHERE<br>- ORDER BY, LIMIT<br>- Creating tables + writing first queries                                                                              | `day2/`    |
+| **Day 3** | SQL Joins                   | - INNER, LEFT, RIGHT joins<br>- Multi-table joins<br>- How data connects across Customer → Orders → Items → Products<br>- Real retail DB queries                                                                     | `day3/`    |
+| **Day 4** | SQL Group By & Aggregations | - GROUP BY logic<br>- SUM, COUNT, AVG, MIN, MAX<br>- Revenue calculations<br>- Product/category/customer analytics<br>- KPI-style queries                                                                            | `day4/`    |
+| **Day 5** | Subqueries + CASE WHEN      | **Subqueries:**<br>- SELECT subqueries<br>- WHERE subqueries<br>- Derived tables<br>- Above/below average metrics<br>**CASE WHEN:**<br>- High/Medium/Low segmentation<br>- Revenue buckets<br>- Order classification | `day5/`    |
+| **Day 6** | Window Functions (MySQL 8)  | - OVER(), PARTITION BY, ORDER BY<br>- ROW_NUMBER, RANK, DENSE_RANK<br>- Running totals<br>- Highest revenue orders<br>- Top-selling products<br>- Category averages<br>- Spend segmentation                          | `day6/`    |
+| **Day 7** | Multi-Step SQL Analytics    | - CTE chains<br>- Breaking business questions into steps<br>- Product/category revenue pipelines<br>- Customer summary metrics (LTV, AOV, days active)<br>- Frequency metrics<br>- Multi-layer business logic        | `day7/`    |
 
 ---
 
-### **Day 3 — SQL Joins**
-Learned how data connects across tables:
-- INNER JOIN  
-- LEFT JOIN  
-- RIGHT JOIN  
-- Multi-table JOINs  
-- Order → Customer → Items → Products  
-- Real queries using a retail database  
+## **🔧 Tools Used**
 
-GitHub folder: `day3/`
+* Python
+* Pandas
+* MySQL 8
+* VS Code
+* Jupyter Notebook
+* Git & GitHub
 
 ---
 
-### **Day 4 — SQL Group By & Aggregations**
-Built analytical queries:
-- GROUP BY logic  
-- SUM, COUNT, AVG, MIN, MAX  
-- Revenue calculations  
-- Product-level, category-level, and customer-level analysis  
-- Full KPI-style queries  
+## **🌱 Goal**
 
-GitHub folder: `day4/`
+Become a job-ready Data Analyst in **60 days** by:
 
----
-
-### **Day 5 — SQL Subqueries + CASE WHEN**
-Learned advanced SQL logic:
-#### **Subqueries**
-- Subquery in SELECT  
-- Subquery in WHERE  
-- Subquery in FROM (derived tables)  
-- Comparing values against averages  
-- Finding top performers, outliers, above/below average metrics  
-
-#### **CASE WHEN**
-- Creating categories (High/Medium/Low)  
-- Revenue buckets  
-- High-value orders  
-- Customer segmentation  
-- Conditional classification  
-
-GitHub folder: `day5/`
+* Practicing daily
+* Writing production-style SQL
+* Working with a realistic retail database
+* Publishing progress publicly
+* Building real analytical projects
 
 ---
 
-### **Day 6 — Window Functions (MySQL 8)**
-Learned advanced analytical SQL:
-- `OVER()`  
-- `PARTITION BY`  
-- `ORDER BY` inside window functions  
-- `ROW_NUMBER()`, `RANK()`, `DENSE_RANK()`  
-- Running totals  
-- Highest revenue order per customer  
-- Top-selling products per category  
-- Total quantity sold per product  
-- Customer spend segmentation using window totals
+## **🔗 Connect With Me**
 
-YouTube video that helped:  
-https://www.youtube.com/watch?v=rIcB4zMYMas
+LinkedIn: [https://www.linkedin.com/in/rahil-gala](https://www.linkedin.com/in/rahil-gala)
+GitHub: [https://github.com/RahilGala/data-analyst-journey](https://github.com/RahilGala/data-analyst-journey)
 
 ---
-
-## 🔧 Tools Used
-- Python  
-- Pandas  
-- MySQL  
-- VS Code  
-- Jupyter Notebook  
-- Git & GitHub  
-
----
-
-## 🌱 Learning Goal
-Become a job-ready mid-level Data Analyst in **60 days** by:
-- Learning daily  
-- Building real SQL logic  
-- Practicing with a realistic retail database  
-- Sharing progress publicly  
-- Publishing code and projects consistently  
-
----
-
-## 🔗 Connect With Me
-LinkedIn: https://www.linkedin.com/in/rahil-gala  
-GitHub: https://github.com/RahilGala/data-analyst-journey
 
 
