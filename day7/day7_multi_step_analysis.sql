@@ -87,8 +87,39 @@ SELECT
 FROM cust_agg
 ORDER BY total_spend DESC;
 
+-- 5. Identify repeat customers vs one-time customers.
+--    Output:
+--      customer_id
+--      total_orders
+--      total_spend
+--      customer_type: 'Repeat' if total_orders > 1 else 'One-time'
+SELECT o.customer_id,
+       count(DISTINCT o.order_id) total_orders,
+       sum(oi.quantity*oi.price) total_spend,
+       CASE
+           WHEN count(DISTINCT o.order_id) > 1 THEN 'Repeat'
+           ELSE 'One-time'
+       END customer_type
+FROM orders o
+JOIN order_items oi ON o.order_id = oi.order_id
+GROUP BY o.customer_id;
 
-
-
-
+-- 6. Find the top 5 days by order volume and by total revenue.
+--    Output:
+--      order_date,
+--      orders_count,
+--      total_revenue
+-- Top 5 days by revenue
+select o.order_date,sum(oi.price*oi.quantity) total_revenue
+from orders o
+join order_items oi on oi.order_id = o.order_id
+group by o.order_date
+order by total_revenue desc
+limit 5;
+-- Top 5 days by order volume
+select order_date,count(distinct order_id) orders_count
+from orders
+group by order_date
+order by orders_count desc
+limit 5;
 
